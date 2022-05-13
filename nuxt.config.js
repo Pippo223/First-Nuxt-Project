@@ -34,6 +34,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    ['@storyblok/nuxt/module', { accessToken: 'hjKg3v2Mme3nIBuWZfx24gtt' }],
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

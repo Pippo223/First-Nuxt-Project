@@ -1,11 +1,10 @@
 <template>
-  <Tutorial/>
+  <StoryblokComponent v-if="story" :blok="story.content" />
 </template>
 
-<script>
-import Tutorial from '../components/Tutorial.vue'
-export default {
-  name: 'IndexPage',
-  components: { Tutorial }
-}
+<script setup>
+  import { useStoryblok } from '@storyblok/nuxt'
+  const { story, fetchState } = useStoryblok('home', { version: 'draft' })
 </script>
+
+

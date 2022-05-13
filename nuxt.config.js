@@ -35,6 +35,7 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     ['@storyblok/nuxt/module', { accessToken: 'hjKg3v2Mme3nIBuWZfx24gtt' }],
+    '@nuxtjs/composition-api/module',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
